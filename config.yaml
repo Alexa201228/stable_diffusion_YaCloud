@@ -1,0 +1,10 @@
+name: sd-xl-generate-new
+desc: generate SD-xl image
+cmd: python main.py --input ${QUERIES}
+env:
+  python: auto
+inputs:
+  - queries.txt: QUERIES
+outputs:
+  - output_images.zip
+cloud-instance-type: g1.2
