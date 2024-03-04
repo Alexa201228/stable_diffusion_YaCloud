@@ -1,0 +1,8 @@
+accelerate==0.27.2
+datasphere==0.6.8
+diffusers==0.26.3
+safetensors==0.4.2
+scipy==1.12.0
+torch==2.2.1
+transformers==4.38.2
+
